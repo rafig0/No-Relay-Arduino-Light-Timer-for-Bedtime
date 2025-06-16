@@ -1,4 +1,4 @@
-# 🛏️ Bedtime Light Timer – No Relay, Just Smart Timing
+# 🛏️ Bedtime Light Timed Switch – No Relay, Just Smart Timing
 
 This project is a minimalist Arduino-based switch that turns off your room light 15 seconds (or a custom set duration) after powering on — so you can hop into bed without fumbling in the dark.
 
