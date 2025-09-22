@@ -45,7 +45,6 @@ The original Arduino code was lost (RIP previous PC 💀), but the logic was sup
 - You can calibrate how much to move the servo arm by fine-tuning the code with proper degrees by doing trial and error.
 - I have still uploaded a demo code for this project.
 
-Recreation coming soon.
 
 ## 🛠️ Setup Instructions
 
