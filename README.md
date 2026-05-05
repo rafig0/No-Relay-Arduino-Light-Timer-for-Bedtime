@@ -37,15 +37,6 @@ https://github.com/user-attachments/assets/e8c0bdb7-0464-4ba0-bcbe-39047f0715e5
 3. After 15 seconds, the Arduino sends a signal to the servo to move and flip the switch to "OFF".
 4. You’re already cozy in bed. Mission accomplished.
 
-## 📄 Code
-
-The original Arduino code was lost (RIP previous PC 💀), but the logic was super simple:
-
-- Wait 15 seconds → move servo arm 90° to toggle off the light.
-- You can calibrate how much to move the servo arm by fine-tuning the code with proper degrees by doing trial and error.
-- I have still uploaded a demo code for this project.
-
-
 ## 🛠️ Setup Instructions
 
 1. Mount the servo securely over your physical light switch. I used masking tape as it was a temporary setup.
