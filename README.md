@@ -43,6 +43,24 @@ https://github.com/user-attachments/assets/e8c0bdb7-0464-4ba0-bcbe-39047f0715e5
 2. Plug in the Arduino setup to power. (9V battery)
 3. That's literally it — enjoy the auto turn-off after 15 seconds, or the timed duration that you have custom set!
 
+## Code 
+```cpp
+#include <Servo.h>
+
+Servo myServo;
+
+void setup() {
+  myServo.attach(9);  // Connect servo signal to pin 9
+  myServo.write(0);   // Start position (assumes 0° holds the switch ON)
+  delay(15000);       // Wait for 15 seconds before switching off
+  myServo.write(90);  // Move to 90° to turn the switch OFF
+  myServo.write(0);   // Goes back to initial position.
+}
+
+void loop() {
+  
+}
+```
 
 ## 🙌 Creator
 
